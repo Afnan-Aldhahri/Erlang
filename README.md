@@ -30,19 +30,19 @@ Time for learning Erlang :
 
 5- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
  
-     * Workspaces
+   * Workspaces
      
-     * The GOPATH environment variable
+   * The GOPATH environment variable
      
-     * Package paths
+   * Package paths
      
 6- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
  
-     * [Formatting , Comments](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Formatting%20and%20Comments%20.md)
+   * [Formatting , Comments](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Formatting%20and%20Comments%20.md)
 
-     * [Names and Semicolons](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Names%20and%20Semicolons.md)
+   * [Names and Semicolons](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Names%20and%20Semicolons.md)
 
-     * [Control structures](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Control%20structures.md)
+   * [Control structures](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Control%20structures.md)
     
          * IF
          
