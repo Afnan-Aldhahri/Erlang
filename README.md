@@ -41,15 +41,19 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 Time for learning Erlang :
 
-5- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
+6- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
  
-   * Workspaces
+   *Integers
+   *Floats
+   *Mathematical Operators
+   *Atoms
+   *Booleans
+   *Tuples
+   *Lists
+   *Characters and Strings
+
      
-   * The GOPATH environment variable
-     
-   * Package paths
-     
-6- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
+7- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
  
    * [Formatting , Comments](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Formatting%20and%20Comments%20.md)
 
@@ -59,7 +63,7 @@ Time for learning Erlang :
 
 
          
-7- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
+8- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
 
 
 8- [OTP Behaviors](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/OTP%20Behaviors.md)
