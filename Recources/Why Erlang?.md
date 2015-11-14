@@ -58,9 +58,7 @@ This gives system response times on the order of milliseconds even in the presen
 
 #### Robustness 
 
-• Erlang processes can be linked together so that if one crashes, the other will be knowing, and then can either handle the
-
-crash or choose to crash itself.
+• Erlang processes can be linked together so that if one crashes, the other will be knowing, and then can either handle the   crash or choose to crash itself.
 
 • OTP provides a number of generic behaviors, such as servers, finite state machines, and event handlers. 
 
@@ -77,12 +75,12 @@ The default distribution mode is based on ** TCP/IP **, allowing a node to conne
 
 As long as these nodes are connected through a TCP/IP network , the result is a fully meshed network of nodes, where all the nodes can communicate with each other.
 
-With distribution built into the language ,you can easily distribute your processes across a cluster of computers because the syntax of sending a message within a local node is the same as sending it to a remote node.
+With distribution built into the language ,you can easily distribute your processes across a cluster of computers because the  syntax of sending a message within a local node is the same as sending it to a remote node.
 
 
 #### Integration and Openness
 
- Erlang is an open language allowing you to integrate legacy code or new code .
+Erlang is an open language allowing you to integrate legacy code or new code .
  
 Therfore, there are mechanisms for interworking with C, Java, Ruby, and other programming languages, including Python, Perl, and Lisp.
 
