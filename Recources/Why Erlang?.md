@@ -71,7 +71,7 @@ This gives system response times on the order of milliseconds even in the presen
 
 Erlang has distribution incorporated into the language’s syntax and semantics.
 
-The default distribution mode is based on ** TCP/IP **, allowing a node to connect to any other node running on any operating system. 
+The default distribution mode is based on **TCP/IP** , allowing a node to connect to any other node running on any operating system. 
 
 As long as these nodes are connected through a TCP/IP network , the result is a fully meshed network of nodes, where all the nodes can communicate with each other.
 
@@ -86,6 +86,6 @@ Therfore, there are mechanisms for interworking with C, Java, Ruby, and other pr
 
 External languages can be added using drivers that are linked into the Erlang runtime system .
 
-High-level libraries allow Erlang nodes to communicate with nodes executing Java or C, making them appear and behave like
+High-level libraries allow Erlang nodes to communicate with nodes executing Java or C, 
 
-distributed Erlang nodes. 
+making them appear and behave like  distributed Erlang nodes. 
