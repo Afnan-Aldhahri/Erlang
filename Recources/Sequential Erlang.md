@@ -48,5 +48,59 @@ so that such a sequence evaluates to true only if all expressions in the sequenc
 gives their disjunction, where the sequence evaluates to true if any expression evaluates to true.
 
 
-###Built-in Functions
+###Input and Output
+
+The io module provides input and output from an Erlang program.
+
+To read a line from standard input, use 'io:get_line/1', which takes a prompt string (or atom) as its input:
+
+    1> io:get_line("gissa line>"). gissa line>lkdsjfljasdkjflkajsdf. "lkdsjfljasdkjflkajsdf.\n"
+    
+It is also possible to read a specified number of characters:
+
+    2> io:get_chars("tell me> ",2). tell me> er
+    "er"
+    
+The most useful input function is 'io:read/1', which reads an Erlang term from standard input:
+
+    3> io:read("ok, then>>").
+    ok, then>>atom.
+    {ok,atom}
+    4> io:read("ok, then>>").
+    ok, then>>{2,tue,{mon,"weds"}}. {ok,{2,tue,{mon,"weds"}}}
+    5> io:read("ok, then>>").
+    ok, then>>2+3. {error,{1,erl_parse,"bad term"}}
+    
+io:format takes the following:
+
+• A formatting string (or binary) that controls the formatting of the arguments
+
+• A list of values to be printed
+
+The formatting string contains characters that are printed as they are with control se- quences for formatting.
+Control sequences begin with a tilde (~), and the simplest form is a single character, indicating the following:
+
+~c : 
+An ASCII code to be printed as a character.
+
+~f : 
+A float to be printed with six decimal places.
+
+
+~e : 
+A float to be printed in scientific notation, showing six digits in all.
+
+~w : 
+Writes any term in standard syntax.
+
+~p : 
+Writes data as ~w, but in “pretty printing” mode, breaking lines in appropriate places, indenting sensibly, and outputting lists as strings where possible.
+
+
+~W, ~P : 
+Behave as ~w, ~p, but eliding structure at a depth of 3. These take an extra argument in the data list indicating the maximum depth for printing terms.
+
+~B : 
+Shows an integer to base 10.
+
 ###Recursion
