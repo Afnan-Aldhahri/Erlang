@@ -34,7 +34,27 @@ It is not obligatory to process messages in the order they are came to the mailb
 
 ####Scalable, Safe, and Efficient Concurrency 
 
+Erlang concurrency is fast and scalable. 
+
+The processes are lightweight .Its even lighter than thread.
+
+processes are created, scheduled, and handled in the VM, independent of the operating system. Therfore, process creation time is so small . 
+
+Erlang processes communicate with each other through message passing. Regardless of the number of concurrent processes in your system, exchanging messages within the system takes *microseconds*.
+
+All that is involved in message passing is the copying of data from the memory space of one process to the memory space of the other, all within the same virtual machine. 
+
+
 #### Soft Real-Time Properties 
+
+Erlang can be used  for tasks with soft real-time constraints. 
+
+Erlang can handle high loads with no declination in throughput , and the reason is 
+
+Storage management in Erlang is automated, with garbage collection im- plemented on a per-process basis. 
+
+This gives system response times on the order of milliseconds even in the presence of garbage-collected memory.
+
 
 #### Robustness 
 
