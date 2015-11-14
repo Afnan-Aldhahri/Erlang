@@ -76,12 +76,39 @@ When using quotes, examples are :
 
 
 #####  Booleans
-There are no separate types of Boolean values or characters in Erlang. Instead of a Boolean type, the atoms true and false are used together with Boolean operators. They play the role of Booleans in being the results of tests, and in particular, comparisons:
+
+There are no specific types of Boolean values in Erlang. 
+
+Instead , the atoms true and false are used together with Boolean operators.
+
 1> 1==2. false
 2> 1<2. true
-3> a>z.
-false
+3> a>z. false
 4> less<more. true
-Atoms are ordered in lexicographical order. We give more details of these comparisons later in this chapter. Erlang has a wide variety of built-in functions, usually called BIFs in the Erlang community, which can be used in your programs and in the shell. The built-in function is_boolean gives a test of whether an Erlang value is a Boolean:
+
+Atoms are ordered in lexicographical order.
+
+The built-in function is_boolean gives a test of whether an Erlang value is a Boolean:
 5> is_boolean(9+6). false
 6> is_boolean(true). true
+
+##### Tuples
+
+Tuples are a composite data type used to store a collection of items.
+
+These items can be any Erlang data values.
+
+Tuples are bounded by curly brackets, {...}, and their elements are separated by commas.
+
+Some examples of tuples include:
+{123, bcd} {123, def, abc} {abc, {def, 123}, ghi} {} {person, 'Joe', 'Armstrong'} {person, 'Mike', 'Williams'}
+
+The tuple {637,abcd} has two elements: the integer 637 and the atom abcd. 
+
+The empty tuple {} has no elements. 
+
+In a tuple, when the first element is an atom, it is called a tag. 
+
+ This  helps in finding the reason of errors when the wrong tuple has been mistakenly passed as an argument or returned as a result of a function call. 
+ 
+ 
