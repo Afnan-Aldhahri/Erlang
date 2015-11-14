@@ -55,12 +55,10 @@ Time for learning Erlang :
      
 7- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
  
-   * [Formatting , Comments](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Formatting%20and%20Comments%20.md)
-
-   * [Names and Semicolons](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Names%20and%20Semicolons.md)
-
-   * [Control structures](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Control%20structures.md)
-
+   * Conditional Evaluations
+   * Guards
+   * Built-in Functions
+   * Recursion
 
          
 8- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
