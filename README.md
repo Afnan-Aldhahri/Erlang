@@ -4,11 +4,11 @@ If you are new to **Erlang** , this presentation will give you an overview pictu
 
 After you finish reading this repository , you will be able to write , complie ,run , test an effictive Erlang code.
 
-and most importantly , you will know why choosing Erlang .
+and most importantly , you will know why choosing **Erlang** .
 
 We will start *together* this journey, since **Erlang** is a *new* programming language for me too.
 
-[About this presentation](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/About%20this%20presentation.md) 
+[About this presentation](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/About%20this%20presentation.md) 
 
 
 -----------------------------------------------------------------------------------------------------
@@ -18,17 +18,17 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 
 
-1-[What is Erlang ?](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/What%20is%20GO%20%3F%20.md)  
+1-[What is Erlang ?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/What%20is%20Erlang%3F.md)  
 
-2-[The History of Erlang](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Who%20and%20When%3F.md)
+2-[The History of Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/The%20History%20of%20Erlang.md)
 
-3-[Why Erlang?](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Why%20GO.md) 
+3-[Why Erlang?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Why%20Erlang%3F.md) 
 
 4-[Installing Go](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/InstallingGO.md) 
 
 Time for learning Erlang :
 
-5- [Basic Erlang](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Code%20Organization.md)
+5- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
  
      * Workspaces
      
@@ -36,7 +36,7 @@ Time for learning Erlang :
      
      * Package paths
      
-6- [Sequential Erlang](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Go%20the%20Basics.md) 
+6- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
  
      * [Formatting , Comments](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Formatting%20and%20Comments%20.md)
 
@@ -51,13 +51,13 @@ Time for learning Erlang :
          * Switch
 
          
-7- [Concurrent Programming](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Go%20the%20Basics.md) 
+7- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
 
 
-8- [OTP Behaviors](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Run%20your%20first%20program.md)
+8- [OTP Behaviors](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/OTP%20Behaviors.md)
 
 
-9- [How Erlang related to our class : Software Engineering](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/How%20GO%20related%20to%20our%20class%20:%20Software%20Engineering.md)
+9- [How Erlang related to our class : Software Engineering](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/How%20Erlang%20related%20to%20our%20class%20:%20Software%20Engineering.md)
 
 
-10-[References](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/bibliography.md)
+10-[References](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/References.md)
