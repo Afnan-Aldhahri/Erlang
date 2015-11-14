@@ -20,7 +20,7 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 1-[What is Erlang ?](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/What%20is%20GO%20%3F%20.md)  
 
-2-[Who and When?](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Who%20and%20When%3F.md)
+2-[The History of Erlang](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Who%20and%20When%3F.md)
 
 3-[Why Erlang?](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Why%20GO.md) 
 
