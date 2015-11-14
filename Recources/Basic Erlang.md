@@ -72,7 +72,7 @@ Examples of atoms starting with a lowercase letter include:
 january fooBar alfa21 start_with_lower_case node@ramone true false
 
 When using quotes, examples are :
-'January' 'a space' 'Anything inside quotes{}#@ \n\012' 'node@ramone.erlang-consulting.com'
+'January' 'a space' 'Anything inside quotes{}#@ \n\012' 
 
 
 #####  Booleans
