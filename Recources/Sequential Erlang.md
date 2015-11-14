@@ -27,13 +27,13 @@ The clause will be selected only if the pattern matches and the guard expression
 
 The individual guard expressions can be built using the following constructs:
 
-• Bound variables
-• Literal Erlang terms denoting data values including numbers, atoms, tuples, lists, and so forth
-• Type tests, such as is_binary, is_atom, is_boolean, is_tuple, and so on
-• Term comparisons using ==, =/=, <, >, and so on, as listed in Chapter 2
-• Arithmetic expressions built using the arithmetical operators given in Chapter 2
-• Boolean expressions as described in Chapter 2
-• Guard built-in functions
+* Bound variables
+* Literal Erlang terms denoting data values including numbers, atoms, tuples, lists, and so forth
+* Type tests, such as is_binary, is_atom, is_boolean, is_tuple, and so on
+* Term comparisons using ==, =/=, <, >, and so on, as listed in Chapter 2
+* Arithmetic expressions built using the arithmetical operators given in Chapter 2
+* Boolean expressions as described in Chapter 2
+* Guard built-in functions
 
 Guard subexpressions resulting in a runtime error are treated as returning false. 
 
