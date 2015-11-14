@@ -43,14 +43,14 @@ Time for learning Erlang :
 
 6- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
  
-   *Integers
-   *Floats
-   *Mathematical Operators
-   *Atoms
-   *Booleans
-   *Tuples
-   *Lists
-   *Characters and Strings
+   * Integers
+   * Floats
+   * Mathematical Operators
+   * Atoms
+   * Booleans
+   * Tuples
+   * Lists
+   * Characters and Strings
 
      
 7- [Sequential Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Sequential%20Erlang.md) 
