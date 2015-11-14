@@ -24,6 +24,15 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 3-[Why Erlang?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Why%20Erlang%3F.md) 
 
+   * High-Level Constructs 
+   * Concurrent Processes and Message Passing
+   * Scalable, Safe, and Efficient Concurrency
+   * Soft Real-Time Properties
+   * Robustness
+   * Distributed Computation 
+   * Integration and Openness
+   
+
 4-[Installing Go](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/InstallingGO.md) 
 
 Time for learning Erlang :
@@ -43,12 +52,7 @@ Time for learning Erlang :
    * [Names and Semicolons](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Names%20and%20Semicolons.md)
 
    * [Control structures](https://github.com/Afnan-Aldhahri/GO/blob/master/Resources/Control%20structures.md)
-    
-         * IF
-         
-         * For
-         
-         * Switch
+
 
          
 7- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
