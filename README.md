@@ -57,8 +57,7 @@ Time for learning Erlang :
  
    * Conditional Evaluations
    * Guards
-   * Built-in Functions
-   * Recursion
+   * Input and Output
 
          
 8- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
