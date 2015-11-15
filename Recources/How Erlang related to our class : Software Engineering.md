@@ -42,4 +42,5 @@ This is expected because Elixr is build on Erlang VM ,exactly as how clojure bui
 
 
 
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
 
