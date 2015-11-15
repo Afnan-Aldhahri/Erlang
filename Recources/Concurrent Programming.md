@@ -93,3 +93,5 @@ On executing the receive statement, the first (and oldest) message in the mailbo
  Each pattern consists of any valid Erlang term, including bound and unbound variables as well as optional guards.
 
 To ensure that the receive statement always retrieves the first message in the mailbox you could use an unbound variable.
+
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
