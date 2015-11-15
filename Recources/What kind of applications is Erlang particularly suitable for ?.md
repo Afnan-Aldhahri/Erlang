@@ -10,19 +10,18 @@
 
 * Database applications which require soft realtime behaviour.
 
-Erlang is very powerful at solving these kinds of problems because this is the  domain it was originally designed for 
+Erlang is very powerful at solving these kinds of problems because this is the domain it was originally designed for since Erlang has these characteristics:
 
-because Erlang has these characteristics:
+* Concurrency and message passing are a essential characteristics of Erlang. 
 
-* Erlang provides a simple and powerful model for error containment and fault tolerance (supervised processes).
+* Applications written in Erlang contain thousands of lightweight processes. 
 
-* Concurrency and message passing are a fundamental to the language. Applications written in Erlang are often composed of hundreds or thousands of lightweight processes. Context switching between Erlang processes is typically one or two orders of magnitude cheaper than switching between threads in a C program.
+* Erlang provides a simple model for fault tolerance .
 
-* Writing applications which are made of parts which execute on different machines (i.e. distributed applications) is easy. Erlang's distribution mechanisms are transparent: programs need not be aware that they are distributed.
+*  distributed applications is so easy. 
 
 * The OTP libraries provide support for many common problems in networking and telecommunications systems.
 
-* The Erlang runtime environment (a virtual machine, much like the Java virtual machine) means that code compiled on one architecture runs anywhere. The runtime system also allows code in a running system to be updated without interrupting the program.
 
 
 [Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
