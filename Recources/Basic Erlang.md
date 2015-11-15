@@ -160,3 +160,5 @@ Strings are denoted by lists of ASCII values and represented using the double qu
 
 So,the string "Hello World" is infact the list [72,101,108,108,111,32,87,111,114,108,100]. 
 
+
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
