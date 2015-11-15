@@ -32,7 +32,7 @@ As we study in the class, Concurrent programming is always difficult since it re
 Moreover , Concurrent programming can leads to many problems like race condition, memory barrier and dead lock. 
 However , in Erlang , the only problem that could occur is dead lock and that’s because the only way for process to communicate is by passing and receiving massages so there is no chance for race condition to happen.
 
-The dead lock can happen when the process loop and block waiting for receiving a massage .
+The **dead lock** can happen when the process loops and **blocks** waiting for receiving a massage .
 
 You will notice there are many **common concepts** between **Erlang** and **Elixr** (the language that we studied in class)
 
