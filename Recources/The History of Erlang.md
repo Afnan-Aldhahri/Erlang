@@ -55,3 +55,6 @@ Now it possible to run a homgeneous Erlang system on a heterogeneous hardware be
 Decision to sell implementations Erlang externally.
 
 Separate organization in Ericsson started to maintain and support Erlang implementations and Erlang Tools.
+
+
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
