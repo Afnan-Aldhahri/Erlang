@@ -2,10 +2,6 @@
 
 If you are new to **Erlang** , this presentation will give you an overview picture of **Erlang** and how its related to software Engineering .
 
-After you finish reading this repository , you will be able to write , complie ,run , test an effictive Erlang code.
-
-and most importantly , you will know why choosing **Erlang** .
-
 We will start *together* this journey, since **Erlang** is a *new* programming language for me too.
 
 [About this presentation](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/About%20this%20presentation.md) 
@@ -15,7 +11,6 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 
 **Table of Contents:**
-
 
 
 1-[What is Erlang ?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/What%20is%20Erlang%3F.md)  
