@@ -30,7 +30,7 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
 
 4-[What applications are Erlang particularly suitable for ?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/What%20kind%20of%20applications%20is%20Erlang%20particularly%20suitable%20for%20%3F.md) 
 
-5-[ Who uses Erlang ?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/%20Who%20uses%20Erlang%3F.md)
+5-[ Who uses Erlang ?](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Who%20uses%20Erlang%3F.md)
    * for product development 
    * for research and teaching
 
