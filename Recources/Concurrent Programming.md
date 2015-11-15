@@ -44,7 +44,7 @@ It will print the process identifier, the function used to spawn the process,
 
 the function in which the process is currently executing, as well as other information .
 
-#### Message passing
+#### Message Passing
 
 Processes communicate with each other using **message passing**. 
 
