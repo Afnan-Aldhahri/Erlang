@@ -61,9 +61,11 @@ Time for learning Erlang :
 
          
 8- [Concurrent Programming](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Concurrent%20Programming.md) 
+   
+   * Creating Processes
+   * Message Passing
+   * Receiving Messages
 
-
-8- [OTP Behaviors](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/OTP%20Behaviors.md)
 
 
 9- [How Erlang related to our class : Software Engineering](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/How%20Erlang%20related%20to%20our%20class%20:%20Software%20Engineering.md)
