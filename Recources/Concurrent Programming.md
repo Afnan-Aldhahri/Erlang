@@ -2,21 +2,21 @@
 ##Concurrent Programming
 
  
-One of main reasons that make Erlang a very powerful programming language is its support or Concurrency.
+One of main reasons that make Erlang a very powerful programming language is its support for **Concurrency**.
 
-Each concurrent activity in Erlang is called a process. 
+Each concurrent activity in Erlang is called a **process**. 
 
 Each Erlang process executes in its own memory space and owns its own heap and stack instead of using threads that share memory.
 
-Processes communicate with each other via message passing.
+Processes communicate with each other via **message passing**.
 
-Note : message can be any kind of Erlang data type.
+*Note :* message can be any kind of Erlang data type.
 
-Message passing is asynchronous, so once a message is sent, the process is not blocked . it can continue processing.
+Message passing is **asynchronous**, so once a message is sent, the process is not blocked . it can continue processing.
 
 What makes the concurrency more powerful is that :
 
-Messages are retrieved from the process mailbox selectively.
+Messages are retrieved from the process mailbox **selectively**.
 
 It is not obligatory to process messages in the order they are came to the mailbox.
 
@@ -80,9 +80,9 @@ On executing the receive statement, the oldest message in the mailbox is pattern
 
   the variables in the pattern are bound to the matching parts of the message, and the body of the clause is executed.
   
-• If none of the clauses matches, the subsequent messages in the mailbox are pattern- matched one by one against all of 
+• If none of the clauses matches, the subsequent messages in the mailbox are pattern- matched one by one
 
- the clauses until either a message matches a clause or all of the messages have failed all of the possible pattern matches.
+against all of the clauses until either a message matches a clause or all of the messages have failed all of the possible pattern matches.
  
  A receive statement will return the **last evaluated expression** in the body of the matched clause.
  
