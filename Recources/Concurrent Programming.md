@@ -8,8 +8,6 @@ Each concurrent activity in Erlang is called a process.
 
 Each Erlang process executes in its own memory space and owns its own heap and stack instead of using threads that share memory.
 
-Processes can’t conflict with each other which leads to deadlocks ,race condition and other problems of concurrency .
-
 Processes communicate with each other via message passing.
 
 Note : message can be any kind of Erlang data type.
@@ -24,25 +22,26 @@ It is not obligatory to process messages in the order they are came to the mailb
 
 #### Creating Processes
 
- To run concurrent code, we have to create more processes. 
+ To run concurrent code, we have to create **more than one process**. 
  
- we do this by spawning a process using the spawn(Module, Function, Arguments) BIF(built in function).
+ we create process by spawning a process using the spawn(Module, Function, Arguments) BIF(built in function).
  
- The spawn BIF returns a process identifier as a pid.
+ The spawn BIF returns a process identifier as a **pid**.
  
 Once spawned, a process will continue executing and remain alive until it terminates.
 
-Two way the proccess can be tirminated :
+**Two way the proccess can be tirminated :**
 
-1- If there is no more code to execute, a process is said to terminate normally.
+1- Terminate normally : if there is no more code to execute .
 
-2-  if a runtime error such as a bad match or a case failure occurs, the process is said to terminate abnormally.
+2- Terminate abnormally : if a runtime error such as a bad match or a case failure occurs.
 
-We can use the shell command ' i() ' to find out what the currently executing processes in the runtime system are doing. 
+To find out what the currently executing processes in the runtime system are doing , we can use the shell command ' i() ' . 
 
 It will print the process identifier, the function used to spawn the process,
 
-the function in which the process is currently executing, as well as other information .
+and the function in which the process is currently executing.
+
 
 #### Message Passing
 
@@ -54,11 +53,11 @@ Messages are sent using the Pid ! Message construct, where :
 
 **Message** : is a value from any Erlang data type .
 
-Each Erlang process has a mailbox in which incoming messages are stored.
+Each Erlang process has a **mailbox** in which incoming messages are saved.
 
 When a message is sent, it is copied from the sending process into the recipient’s mailbox for retrieval.
 
-Messages are stored in the mailbox in the order in which they are delivered.
+Messages are saved in the mailbox in **the order in which they are delivered*.
 
 If two messages are sent from one process to another, the messages are guaranteed to be received in the same order in which they are sent.
 
@@ -68,13 +67,14 @@ Message passing is **asynchronous** : a sending process will not be suspended af
 
 it will instead immediately continue executing the next expression in its code.
 
+
 #### Receiving Messages
 
 Messages are retrieved from the process mailbox using the *receive clause*. 
 
-The **receive clause** is a construct bounded by the reserved words receive and end, and contains a number of clauses.
+The **receive clause** is a construct bounded by the reserved words **receive** and **end**, and contains a number of **clauses**.
 
-On executing the receive statement, the first (and oldest) message in the mailbox is pattern-matched against each pattern in the receive expression in turn:
+On executing the receive statement, the oldest message in the mailbox is pattern-matched against each pattern in the receive expression in turn:
 
 • If a successful match occurs, the message is retrieved from the mailbox, 
 
@@ -87,8 +87,6 @@ On executing the receive statement, the first (and oldest) message in the mailbo
  A receive statement will return the **last evaluated expression** in the body of the matched clause.
  
  When none of the clauses in a case statement match, a runtime error occurs.
- 
- The keywords used to delimit a receive clause are receive and end.
  
  Each pattern consists of any valid Erlang term, including bound and unbound variables as well as optional guards.
 
