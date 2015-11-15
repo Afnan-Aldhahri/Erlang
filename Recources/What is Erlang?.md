@@ -14,3 +14,6 @@ As [erlang.org](http://www.erlang.org) defines Erlang :
 Its a general-purpose, concurrent, garbage-collected programming language and runtime system. 
 
 ![Erlang](http://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=0CAkQjRwwAGoVChMIu57xveiQyQIVBZmICh3PAA6Q&url=https%3A%2F%2Frollbar.com%2Ferror-tracking%2Ferlang%2F&psig=AFQjCNGLTKOKVaMWVFzMCDzST0WvJZ7yEA&ust=1447621505122781)
+
+
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
