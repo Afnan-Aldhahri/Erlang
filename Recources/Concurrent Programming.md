@@ -44,7 +44,7 @@ It will print the process identifier, the function used to spawn the process,
 
 the function in which the process is currently executing, as well as other information .
 
-#### message passing
+#### Message passing
 
 Processes communicate with each other using **message passing**. 
 
@@ -68,4 +68,28 @@ Message passing is **asynchronous** : a sending process will not be suspended af
 
 it will instead immediately continue executing the next expression in its code.
 
+#### Receiving Messages
 
+Messages are retrieved from the process mailbox using the *receive clause*. 
+
+The **receive clause** is a construct bounded by the reserved words receive and end, and contains a number of clauses.
+
+On executing the receive statement, the first (and oldest) message in the mailbox is pattern-matched against each pattern in the receive expression in turn:
+
+• If a successful match occurs, the message is retrieved from the mailbox, 
+
+  the variables in the pattern are bound to the matching parts of the message, and the body of the clause is executed.
+  
+• If none of the clauses matches, the subsequent messages in the mailbox are pattern- matched one by one against all of 
+
+ the clauses until either a message matches a clause or all of the messages have failed all of the possible pattern matches.
+ 
+ A receive statement will return the **last evaluated expression** in the body of the matched clause.
+ 
+ When none of the clauses in a case statement match, a runtime error occurs.
+ 
+ The keywords used to delimit a receive clause are receive and end.
+ 
+ Each pattern consists of any valid Erlang term, including bound and unbound variables as well as optional guards.
+
+To ensure that the receive statement always retrieves the first message in the mailbox you could use an unbound variable.
