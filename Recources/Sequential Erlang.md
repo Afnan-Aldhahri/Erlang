@@ -103,3 +103,4 @@ Behave as ~w, ~p, but eliding structure at a depth of 3. These take an extra arg
 ~B : 
 Shows an integer to base 10.
 
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
