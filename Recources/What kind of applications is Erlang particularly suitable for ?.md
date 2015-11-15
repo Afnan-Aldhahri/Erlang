@@ -23,3 +23,6 @@ because Erlang has these characteristics:
 * The OTP libraries provide support for many common problems in networking and telecommunications systems.
 
 * The Erlang runtime environment (a virtual machine, much like the Java virtual machine) means that code compiled on one architecture runs anywhere. The runtime system also allows code in a running system to be updated without interrupting the program.
+
+
+[Home] (https://github.com/Afnan-Aldhahri/Erlang/blob/master/README.md) 
