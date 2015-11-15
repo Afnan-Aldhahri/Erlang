@@ -9,21 +9,21 @@ The if construct looks like a case without the conditional-expression and the of
      Guardn -> expressionn1, expressionn2, ..
     end
     
-The guard expressions  are evaluated in turn **one after another** until one evaluates to **true**. 
+The guard expressions are evaluated in odrer **one after another** until one evaluates to **true**. 
 
 The result of the complete if expression is the result of this sequence.
 
-**A runtime error** is generated if none of the guards evaluates to the atom true, .
+**A runtime error** is generated if none of the guards evaluates to the atom true .
 
 ###Guards
 
 Guards are additional constraints that can be placed in a function clause—either a case or a receive clause . 
 
-Guards are placed before the -> separating the clause head from the body.
-
 A guard consists of a when keyword followed by a guard expression.
 
-The clause will be selected only if the pattern matches and the guard expression evaluate to the atom true.
+Guards are placed before the -> separating the clause head from the body.
+
+The clause will be picked only if the pattern matches and the guard expression estimated true.
 
 The individual guard expressions can be built using the following constructs:
 
@@ -35,7 +35,7 @@ The individual guard expressions can be built using the following constructs:
 * Boolean expressions as described in Chapter 2
 * Guard built-in functions
 
-Guard subexpressions resulting in a runtime error are treated as returning false. 
+Guard subexpressions resulting in a runtime error are considered as returning false. 
 
 Erlang allows simple logical combinations of guards to be written in a different way:
 
@@ -50,7 +50,7 @@ gives their disjunction, where the sequence evaluates to true if any expression 
 
 ###Input and Output
 
-The io module provides input and output from an Erlang program.
+The **io module** provides input and output from an Erlang program.
 
 To read a line from standard input, use 'io:get_line/1', which takes a prompt string (or atom) as its input:
 
@@ -77,7 +77,6 @@ io:format takes the following:
 
 • A list of values to be printed
 
-The formatting string contains characters that are printed as they are with control se- quences for formatting.
 Control sequences begin with a tilde (~), and the simplest form is a single character, indicating the following:
 
 ~c : 
