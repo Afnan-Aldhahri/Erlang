@@ -1,6 +1,6 @@
 ##  Who uses Erlang ?
 
-##### Who uses Erlang for product development?
+### Who uses Erlang for product development?
 
 **Ericsson** : is the largest user of Erlang
 
@@ -53,7 +53,7 @@ A few of the other companies using Erlang are
 **Whatsapp** (Messaging for smartphones)
 
 
-##### Who uses Erlang for research and teaching?
+### Who uses Erlang for research and teaching?
 
 Many universities use Erlang at various levels. 
 
