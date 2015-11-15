@@ -34,7 +34,7 @@ We will start *together* this journey, since **Erlang** is a *new* programming l
    * for product development 
    * for research and teaching
 
-Time for learning Erlang :
+**Time for learning Erlang :**
 
 6- [Basic Erlang](https://github.com/Afnan-Aldhahri/Erlang/blob/master/Recources/Basic%20Erlang.md)
  
